@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>About Me</title>
+	</head>
+
+	<body>
+		<h1>About Me</h1>
+
+			<p>I'm a Freelance Photographer, living in Denver. I became interested in Front-End Web Design and Development, because I work with many small businesses and nonprofits and would like to offer additional services to pair with photography.</p>
+
+		<h2>My Mission</h2>
+
+			<p>As I learn more about front-end, I hope to one day work as a Photographer offer web services with growing small businesses and nonprofits, because I like to work in a freelance environment.</p>
+
+		<h2>My Experience</h2>
+
+			<p>This is how I've evolved professionally:</p>
+
+				<blockquote><li><strong>Brand Spokesperson and Event Manger</strong>, Promotional Models Inc.,</li><em>Eastern Region, 2002-2005</em></blockquote>
+
+				<blockquote><li><strong>Owner and Principal Photographer</strong>, <a href="http://www.envidastudio.com">En Vida Studio,</a></li><em>Grand Rapids, 2006-2014</em></blockquote>
+
+				<blockquote><li><strong>Cofounder and Principal Photographer</strong>, <a href="http://www.propermakes.com">Proper</a>,</li><em>Holland, 2011-2014</em></blockquote></p>
+
+		<h2><strong>Education</strong></h2>
+
+			<p>BA in Photography, <em>Grand Valley State University, 2005-2008</em></p>
+
+		<h2>Other</h2>
+
+			<p></p>If you are interested in collaborating with me on a project, feel free to email me at:
+
+				<a href="mailto:hello@michelletippmann.com">hello@michelletippmann.com</a>
+
+	</body>
+
+</html>
