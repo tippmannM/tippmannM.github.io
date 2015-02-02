@@ -2,7 +2,7 @@ body{
 	color:#fff;
 	font-size:16px;
 	font-family: arial, helvetica, sans-serif;
-	background:url(images/background.jpg) no-repeat;
+	background:url(../images/background.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
