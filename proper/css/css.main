@@ -1,0 +1,42 @@
+body{
+	color:#fff;
+	font-size:16px;
+	font-family: arial, helvetica, sans-serif;
+	background:url(images/background.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+#logo {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#slogan {
+	text-align: center;
+	font-style: italic;
+	background: rgba(216,248,220,.5);
+	width: 250px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+
+#maincontent {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 40px;
+	margin-bottom: 25px;
+}
+
+#services {
+	text-align: center;
+	background: rgba(248,185,155,.8);
+	padding: 125px;
+}
+
+#contact {
+	text-align: center;
+}
+
+
