@@ -1,3 +1,4 @@
+* { margin:0;padding:0;box-sizing:border-box; }
 body{
 	color:#fff;
 	font-size:16px;
@@ -22,7 +23,7 @@ body{
 
 }
 
-#maincontent {
+h1 {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 40px;
@@ -30,13 +31,24 @@ body{
 }
 
 #services {
-	text-align: center;
 	background: rgba(248,185,155,.8);
 	padding: 125px;
+}
+#services div, #services p {
+	float:left;
+	margin:0 auto;
+	width:50%;
 }
 
 #contact {
 	text-align: center;
 }
 
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
 
