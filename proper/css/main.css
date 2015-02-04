@@ -1,40 +1,57 @@
 * { margin:0;padding:0;box-sizing:border-box; }
 body{
 	color:#fff;
-	font-size:16px;
-	font-family: arial, helvetica, sans-serif;
+	font-size:18px;
+	font-family: 'Raleway', sans-serif;
 	background:url(../images/background.jpg) no-repeat;
 	background-size: cover;
 	background-attachment:fixed;
 }
 
+a:link {
+	text-decoration: none;
+	color: #fff
+
+}
+
+nav {
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 2em;
+	word-spacing: 4em;
+}
+
 #logo {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 #slogan {
+	font-family: 'Merriweather', serif;
+	text-transform: uppercase;
 	text-align: center;
-	font-style: italic;
 	background: rgba(216,248,220,.5);
-	width: 250px;
+	width: 300px;
 	margin: 0 auto;
 	padding: 15px;
 
 }
 
 h1 {
-	font-size:1.5em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
 	text-align: center;
-	text-transform: uppercase;
-	padding: 40px;
+	text-transform: lowercase;
+	padding: 100px;
 	margin-bottom: 25px;
-	font-weight:normal;
+	font-weight: lighter;
 }
 
 #services {
 	background: rgba(248,185,155,.8);
-	padding: 125px;
+	padding: 40px;
 }
 .servicesDiv {
 	float:left;
@@ -43,9 +60,12 @@ h1 {
 	font-weight:normal;
 }
 
-#contact {
-	text-align: center;
+.servicesDiv h2 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.2em;
+	text-transform: uppercase;
 }
+
 .container {
 	margin:0 auto;
 	width:75em;
@@ -56,9 +76,4 @@ h1 {
 	display: block; 
 	height: 0; 
 	clear: both;
-<<<<<<< Updated upstream
 }
-
-=======
-}
->>>>>>> Stashed changes
