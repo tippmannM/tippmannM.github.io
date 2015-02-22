@@ -85,6 +85,11 @@ section {
 	margin-top: 10em;
 }
 
+nav a:hover {
+	color: rgba(248,185,155,.8);
+	text-decoration: underline;
+}
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
