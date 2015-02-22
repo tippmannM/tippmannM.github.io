@@ -16,17 +16,19 @@ a:link {
 
 nav {
 	font-family: 'Merriweather', serif;
-	text-transform: uppercase;
-	text-align: center;
+	padding: 5em;
 	margin: 0 auto;
-	font-size: 1.5em;
-	padding: 2em;
-	word-spacing: 4em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	word-spacing: 3em;
+	position: relative; left: 3em;
 }
 
-#logo {
-	text-align: center;
-	margin-top: 75px;
+nav img{
+	float: left;
+	width: 5em;
+	position: fixed; top: 2.5em; left: 2em;
+
 }
 
 #slogan {
@@ -46,14 +48,15 @@ h1 {
 	font-size: 1.2em;
 	text-align: center;
 	text-transform: lowercase;
-	padding: 100px;
+	padding: 1em;
 	margin-bottom: 25px;
 	font-weight: lighter;
 }
 
-#services {
+footer {
 	background: rgba(248,185,155,.8);
 	padding: 40px;
+	position:absolute;bottom:0;left:0;right:0;
 }
 .servicesDiv {
 	float:left;
@@ -72,6 +75,16 @@ h1 {
 	margin:0 auto;
 	width:75em;
 }
+
+.socialmedia {
+	float: right;
+	margin-left: 5em;
+}
+
+section {
+	margin-top: 10em;
+}
+
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -79,3 +92,5 @@ h1 {
 	height: 0; 
 	clear: both;
 }
+
+
