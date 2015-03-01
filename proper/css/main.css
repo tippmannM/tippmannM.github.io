@@ -98,4 +98,32 @@ nav a:hover {
 	clear: both;
 }
 
+#workshops{
+	width: 80em;
+	background: rgba(216,248,220,.8);
+	margin: 5em auto;
+	padding: 1em;
+	
+}
+
+.learntitle {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+}
+
+.learntag {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: .95em;
+	text-transform: lowercase;
+
+}
+
+.workshopboxes {
+	padding: 5em;
+	margin: 0 auto;
+	width: 20em;
+}
+
 
