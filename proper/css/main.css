@@ -138,7 +138,7 @@ nav a:hover {
 .workshopboxes {
 	width: 23em;
 	padding: 1.5em;
-	margin: 0, auto;
+	margin-left: 1%;
 	float: left;
 	border-radius: 50em;
 }
@@ -147,31 +147,30 @@ nav a:hover {
 	width: 20em;
 	float: left;
 	padding: 2em;
-	margin: 0 auto;
 	text-align: center;
 	border-radius: 50em;
+	margin-left: 20%;
 }
 
 .subscription {
 	text-align: justify;
 	font-family: 'Raleway', sans-serif;
-	margin-top: .5em;
 	font-size: .95em;
 	color: rgb(130,103,58);
 	text-transform: lowercase;
 	width: 20em;
 	float: left;
-	margin: 10% auto;
+	margin-top: 5em;
+	margin-left: 5%;
 
 }
 
 .aboutphoto {
 	width: 20em;
 	float: left;
-	padding: 2em;
-	margin: 0 auto;
-	text-align: center;
 	border-radius: 50em;
+	padding: 1em;
+	margin-left: 22%;
 
 }
 
@@ -179,11 +178,54 @@ nav a:hover {
 
 	text-align: left;
 	font-family: 'Raleway', sans-serif;
-	margin-top: .5em;
 	font-size: .95em;
 	color: rgb(130,103,58);
 	text-transform: lowercase;
-	width: 10em;
+	width: 15em;
 	float: left;
-	margin: 10% auto;
+	padding: 1em;
+	margin-top: 5em;
+	margin-left: 5%;
 }
+
+#blogcontent {
+	float: left;
+	width: 350px;
+	padding: 20px 0;
+	margin: 0 0 0 30px;
+	background-color: rgba(0,0,0,.2);
+}
+
+aside {
+	float: right;
+	font-size: 1em;
+	width: 240px;
+	padding: 1.5em 0;
+	margin: 0 1.5em 0 0;
+}
+
+#content {
+	width: 700px;
+	padding: 2em;
+	margin: 1em 0 0 10em;
+	float: left;
+
+}
+
+aside {
+	width: 240px;
+	padding: 2em;
+	margin: 0 1em 0 0;
+	float: right;
+	background: rgba(186,167,137,.6);
+}
+
+#wrapper{
+	width: 900px;
+	height: 500px;
+	background: rgba(216,248,220,.5);
+	float: left;
+	margin: 3em 0 0 10em;
+
+}
+
