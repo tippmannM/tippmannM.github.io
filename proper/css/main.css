@@ -21,8 +21,8 @@ a:visited {
 
 nav {
 	font-family: 'Merriweather', serif;
-	padding: 5em;
-	margin: 0 auto;
+	margin-top: 5em;
+	margin-left: 5em;
 	text-transform: uppercase;
 	font-size: 1.2em;
 	word-spacing: 3em;
@@ -43,6 +43,7 @@ nav img{
 	background: rgba(216,248,220,.5);
 	width: 300px;
 	margin: 0 auto;
+	margin-top: 4em;
 	padding: 15px;
 	border: 2px solid #fff;
 
@@ -62,7 +63,9 @@ footer {
 	background: rgba(248,185,155,.8);
 	padding: 40px;
 	position:absolute;bottom:0;left:0;right:0;
+	clear: both;
 }
+
 .servicesDiv {
 	float:left;
 	margin:0 auto;
@@ -104,7 +107,7 @@ nav a:hover {
 }
 
 #workshops{
-	width: 80em;
+	width: 75em;
 	background: rgba(216,248,220,.8);
 	margin: 5em auto;
 	padding: 1em;
@@ -113,6 +116,11 @@ nav a:hover {
 
 .learntitle {
 	text-align: center;
+	padding: .5em;
+	border: 1px solid #fff;
+	width: 12em;
+	margin: 0 auto;
+	background-color: rgba(186,167,137,.5);
 	text-transform: uppercase;
 	font-family: 'Merriweather', serif;
 }
@@ -120,15 +128,62 @@ nav a:hover {
 .learntag {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
+	margin-top: .5em;
 	font-size: .95em;
+	color: rgb(130,103,58);
 	text-transform: lowercase;
 
 }
 
 .workshopboxes {
-	padding: 5em;
-	margin: 0 auto;
-	width: 20em;
+	width: 23em;
+	padding: 1.5em;
+	margin: 0, auto;
+	float: left;
+	border-radius: 50em;
 }
 
+.scribephoto {
+	width: 20em;
+	float: left;
+	padding: 2em;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50em;
+}
 
+.subscription {
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	margin-top: .5em;
+	font-size: .95em;
+	color: rgb(130,103,58);
+	text-transform: lowercase;
+	width: 20em;
+	float: left;
+	margin: 10% auto;
+
+}
+
+.aboutphoto {
+	width: 20em;
+	float: left;
+	padding: 2em;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 50em;
+
+}
+
+.about {
+
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	margin-top: .5em;
+	font-size: .95em;
+	color: rgb(130,103,58);
+	text-transform: lowercase;
+	width: 10em;
+	float: left;
+	margin: 10% auto;
+}
